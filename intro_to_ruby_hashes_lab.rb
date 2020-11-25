@@ -6,12 +6,14 @@ def base_hash
 
 end
 
-def base_hash
-  base_hash = {
-    :railroads => {
-      :pieces => "4" }
+def monopoly_with_second_tier
+  monopoly = {
+    railroads: {
+      pieces: 4, 
+      names: {}, 
+      rent_in_dollars: {}
+    }
   }
-
 end
 
 def monopoly_with_third_tier
