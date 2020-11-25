@@ -8,7 +8,8 @@ end
 
 def base_hash
   base_hash = {
-    :railroads => {:pieces => "4"}
+    :railroads => {
+      :pieces => "4" }
   }
 
 end
